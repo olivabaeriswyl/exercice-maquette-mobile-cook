@@ -44,37 +44,107 @@ video {
 // ==================================== */
 
 body {
-  max-height: 320px;
+  max-width: 320px;
+  font-family: 'Sorts Mill Goudy', serif;
+  text-align: center;
+  
+}
+
+header {
+  padding-top: 15px;
+}
+
+header img {
+  margin-top: 15px;
+}
+
+nav {
+  padding: 0 70px;
+  display: flex;
+  justify-content: space-between;
 }
 
 nav a {
+  font-family: 'Libre Franklin', sans-serif;
   font-size: 16px;
 }
 
 h1 {
+  font-family: 'Libre Franklin', sans-serif;
   font-size: 11px;
-  font-weight: 700;
-  text-align: center;
   color: white;
   background-color: red;
   border-radius: 50px;
   text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 15px;
 }
 
 h2 {
   font-size: 24px;
   line-height: 1.2;
+  font-weight: 400;
 }
 
 h3 {
+  font-family: 'Libre Franklin', sans-serif;
   font-size: 16px;
   font-weight: 700;
+  text-transform: uppercase;
+}
+
+p {
+  line-height: 1.2;
+  margin-bottom: 15px;
+}
+
+.light-section {
+  padding: 20px 15px 25px;
+}
+
+.light-section h2 {
+  margin-bottom: 15px;
 }
 
 .dark-section {
   background-color: #ebede7;
+  padding: 25px 15px;
 }
 
 .onglet {
+  font-family: 'Libre Franklin', sans-serif;
   background-color: white;
+  margin-top: 15px;
+  border: solid rgb(200, 200, 200) 1px;
+}
+
+.dark-section h2 {
+  font-size: 20px;
+  text-align: left;
+  border-bottom: solid black 2px;
+  font-weight: 700;
+}
+
+.dark-section p {
+  font-size: 20px;
+}
+
+.dark-section img {
+  margin-bottom: 15px;
+}
+
+footer {
+  text-align: left;
+  background-color: black;
+  color: white;
+  padding: 25px 15px;
+}
+
+footer h2 {
+  font-size: 20px;
+}
+
+footer a {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 16px;
 }

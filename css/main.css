@@ -42,3 +42,39 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+body {
+  max-height: 320px;
+}
+
+nav a {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 11px;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+  background-color: red;
+  border-radius: 50px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.dark-section {
+  background-color: #ebede7;
+}
+
+.onglet {
+  background-color: white;
+}
